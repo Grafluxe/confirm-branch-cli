@@ -1,0 +1,24 @@
+{
+  "name": "confirm-branch-cli",
+  "description": "A tiny CLI utility to confirm that you're in the expected git branch.",
+  "bin": {
+    "confirm-branch": "main.js"
+  },
+  "author": "Leandro Silva (http://grafluxe.com)",
+  "homepage": "https://github.com/Grafluxe/confirm-branch-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "Grafluxe/confirm-branch-cli.git",
+  "keywords": [
+    "git",
+    "git branch",
+    "check git branch",
+    "confirm git branch",
+    "branch",
+    "git utility",
+    "cli"
+  ],
+  "dependencies": {
+    "argv": "0.0.2"
+  }
+}
