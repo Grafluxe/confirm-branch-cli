@@ -29,7 +29,7 @@ checkOpts()
   .then(getCurrentBranch)
   .then(confirmMatch)
   .catch(err => {
-    console.error(err);
+    console.error("\x1b[31m%s\x1b[0m\n", err);
     process.exit(1);
   });
 
